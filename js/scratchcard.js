@@ -89,6 +89,14 @@ $(function(){
     function handleMouseDown(e) {
       isDrawing = true;
       lastPoint = getMouse(e, canvas1);
+      if(!sc1){
+        sc1=true;
+        opened = opened + 1;
+        console.log(opened);
+        if(opened == 9){
+          $('#revealgif').css("display","block");
+        }
+      }
     }
   
     function handleMouseMove(e) {
