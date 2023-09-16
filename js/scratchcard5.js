@@ -94,7 +94,9 @@ $(function(){
         opened = opened + 1;
         console.log(opened);
         if(opened == 3){
-          $('#revealgif').css("display","block");
+          sleep(1500).then(() => {
+            $('#revealgif').css("display","block");
+          });
         }
       }
     }
