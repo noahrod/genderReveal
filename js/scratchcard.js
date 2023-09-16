@@ -3,8 +3,8 @@ $(function(){
     'use strict';
     
     var isDrawing, lastPoint;
-    var container    = document.getElementById('scratch-container2'),
-        canvas1       = document.getElementById('scratch-canvas2'),
+    var container    = document.getElementById('scratch-container1'),
+        canvas1       = document.getElementById('scratch-canvas1'),
         canvasWidth1  = canvas1.width,
         canvasHeight1 = canvas1.height,
         ctx1          = canvas1.getContext('2d'),
@@ -13,8 +13,8 @@ $(function(){
         scratched1	   = 35;
         
     image1.src = './img/pink-or-blue-gender.png';
-    image1.width=300;
-    image1.height=300;
+    image1.width=100;
+    image1.height=100;
     image1.onload = function() {
       ctx1.drawImage(image1, 0, 0);
       $('.winner-box').css({visibility: 'visible'});

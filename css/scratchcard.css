@@ -10,12 +10,13 @@ h2 {
 }
 
 .container {
+	margin: 2px 2px 2px 2px;
 	overflow: hidden;
-	border: 3px solid #333;
+	border: 2px solid #333;
 	position: relative;
-	width: 300px;
-	height: 300px;
-	margin: 0 auto;
+	width: 100px;
+	height: 100px;
+	
 	-webkit-user-select: none;
 	-moz-user-select: none;
 	-ms-user-select: none;
@@ -34,8 +35,7 @@ h2 {
 .winner-box {
 	position: relative;
 	visibility: hidden;
-	padding: 20px;
-	
+	padding: 1px;
 	text-align: center;
 	color: #fff;
 	text-shadow: 1px 1px 2px #000;
@@ -43,17 +43,17 @@ h2 {
 
 .blinker {
     -webkit-animation-name: blinker;
-    -webkit-animation-duration: 0.6s;
+    -webkit-animation-duration: 6.0s;
     -webkit-animation-timing-function: linear;
     -webkit-animation-iteration-count: infinite;
 
     -moz-animation-name: blinker;
-    -moz-animation-duration: 0.6s;
+    -moz-animation-duration: 6.0s;
     -moz-animation-timing-function: linear;
     -moz-animation-iteration-count: infinite;
 
     animation-name: blinker;
-    animation-duration: 0.6s;
+    animation-duration: 6.0s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
 }
