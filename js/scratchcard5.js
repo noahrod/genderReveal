@@ -93,7 +93,7 @@ $(function(){
         sc5=true;
         opened = opened + 1;
         console.log(opened);
-        if(opened == 9){
+        if(opened == 3){
           $('#revealgif').css("display","block");
         }
       }
